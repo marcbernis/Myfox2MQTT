@@ -1,4 +1,4 @@
-"""Somfy Protect Sso"""
+"""myfox Protect Sso"""
 import base64
 import json
 import logging
@@ -13,11 +13,11 @@ from requests_oauthlib import OAuth2Session
 
 LOGGER = logging.getLogger(__name__)
 
-SOMFY_PROTECT_TOKEN = "https://sso.myfox.io/oauth/oauth/v2/token"
+SOMFY_PROTECT_TOKEN = "https://api.myfox.me/oauth2/token"
 
-CLIENT_ID = "ODRlZGRmNDgtMmI4ZS0xMWU1LWIyYTUtMTI0Y2ZhYjI1NTk1XzQ3NWJ1cXJmOHY4a2d3b280Z293MDhna2tjMGNrODA0ODh3bzQ0czhvNDhzZzg0azQw"  # pylint: disable=line-too-long
+CLIENT_ID = "d5ed322d3b564cc5f635a2a467ae39bf"  # pylint: disable=line-too-long
 CLIENT_SECRET = (
-    "NGRzcWZudGlldTB3Y2t3d280MGt3ODQ4Z3c0bzBjOGs0b3djODBrNGdvMGNzMGs4NDQ="
+    "lt5AkflRINEXbi3lS04KGLaBTnn1we50"
 )
 
 CACHE_PATH = "token.json"
